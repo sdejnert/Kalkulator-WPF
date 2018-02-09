@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Net;
 
 namespace Kalkulator
 {
@@ -41,12 +42,38 @@ namespace Kalkulator
 
         private void DC_Click(object sender, RoutedEventArgs e)
         {
-
+            bool CheckForInternetConnection()
+            {
+                try
+                {
+                    using (var client = new WebClient())
+                    {
+                        using (client.OpenRead("http://clients3.google.com/generate_204"))
+                        {
+                            return true;
+                        }
+                    }
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+            var newForm = new Distance();
+            newForm.Show();
+            this.Close();
         }
 
         private void CMeWe_Click(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("this calc doesn't exist");
+        }
 
+        private void Ex_Click(object sender, RoutedEventArgs e)
+        {
+            var newFoam = new Exchange();
+            newFoam.Show();
+            this.Close();
         }
     }
 }

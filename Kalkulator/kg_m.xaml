@@ -5,19 +5,20 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Kalkulator"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="400" d:DesignWidth="300"
       Title="kg_m">
 
     <Grid>
-        <TextBox x:Name="WBox" HorizontalAlignment="Left" Height="23" Margin="112,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" />
-        <TextBox x:Name="HBox" HorizontalAlignment="Left" Height="23" Margin="112,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" />
+        <TextBox x:Name="WBox" HorizontalAlignment="Left" Height="23" Margin="112,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" PreviewTextInput="NumberValidationTextBox" />
+        <TextBox x:Name="HBox" HorizontalAlignment="Left" Height="23" Margin="112,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" PreviewTextInput="NumberValidationTextBox"/>
         <TextBlock x:Name="WeightText" HorizontalAlignment="Left" Margin="63,34,0,0" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top"/>
         <TextBlock x:Name="WeightT" HorizontalAlignment="Left" Margin="170,34,0,0" TextWrapping="Wrap" Text="kg" VerticalAlignment="Top"/>
         <TextBlock x:Name="HeightText" HorizontalAlignment="Left" Margin="63,68,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top"/>
         <TextBlock x:Name="HeightT" HorizontalAlignment="Left" Margin="170,68,0,0" TextWrapping="Wrap" Text="cm" VerticalAlignment="Top"/>
         <Button x:Name="ButtonCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="105,96,0,0" VerticalAlignment="Top" Width="75" Click="ButtonCalculate_Click_1"/>
-        <TextBlock x:Name="bmiTextBlock" HorizontalAlignment="Left" Margin="112,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" />
-        <TextBlock x:Name="comTextBlock" HorizontalAlignment="Left" Margin="112,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56"/>
+        <TextBlock x:Name="bmiTextBlock" HorizontalAlignment="Left" Margin="105,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" />
+        <TextBlock x:Name="comTextBlock" HorizontalAlignment="Left" Margin="10,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" Height="60"/>
+        <TextBlock x:Name="BMITextBlock" HorizontalAlignment="Left" Margin="105,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Page>

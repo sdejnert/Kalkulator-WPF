@@ -20,3 +20,16 @@ C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\D
 C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\lb_in.g.cs
 C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\kg_m.baml
 C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\lb_in.baml
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Distance.g.cs
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Distance.baml
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\bin\Debug\Json.NET.Web.dll
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\MeWe.g.cs
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\MeWe.baml
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Exchange.g.cs
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Exchange.baml
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Measures.g.cs
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Weights.g.cs
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Measures.baml
+C:\Users\sebax\Documents\Visual Studio 2017\Projects\Kalkulator\Kalkulator\obj\Debug\Weights.baml
