@@ -10,7 +10,7 @@
         <Button x:Name="BC" Content="Calculator" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BC_Click"></Button>
         <Button x:Name="BMI" Content="BMI" HorizontalAlignment="Left" Margin="120,40,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="BMI_Click"></Button>
         <Button x:Name="DC" Content="Distance" HorizontalAlignment="Left" Margin="200,40,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="DC_Click"></Button>
-        <Button x:Name="CMeWe" Content="Measure Weight" HorizontalAlignment="Left" Margin="280,40,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="CMeWe_Click"></Button>
+        <Button x:Name="CMeWe" Content="Measures" HorizontalAlignment="Left" Margin="280,40,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="CMeWe_Click"></Button>
         <Button x:Name="Ex" Content="Exchange" HorizontalAlignment="Left" Margin="360,40,0,0" VerticalAlignment="Top" Width="75" Height="75" Click="Ex_Click"></Button>
   
     </Grid>

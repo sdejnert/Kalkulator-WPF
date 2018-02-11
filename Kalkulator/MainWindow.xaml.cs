@@ -66,7 +66,10 @@ namespace Kalkulator
 
         private void CMeWe_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("this calc doesn't exist");
+            var newFoam = new Measure();
+            newFoam.Show();
+            this.Close();
+
         }
 
         private void Ex_Click(object sender, RoutedEventArgs e)

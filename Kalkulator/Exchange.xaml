@@ -8,8 +8,8 @@
         Title="Exchange" Height="400" Width="400">
     <Grid>
         <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="BackButton_Click"/>
-        <ComboBox x:Name="ComboBox_1" HorizontalAlignment="Left" Margin="30,75,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_1_SelectionChanged"/>
-        <ComboBox x:Name="ComboBox_2" HorizontalAlignment="Left" Margin="250,75,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_2_SelectionChanged"/>
+        <ComboBox x:Name="ComboBox_1" HorizontalAlignment="Left" Margin="30,75,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_1_SelectionChanged" SelectedIndex="0"/>
+        <ComboBox x:Name="ComboBox_2" HorizontalAlignment="Left" Margin="250,75,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_2_SelectionChanged" SelectedIndex="1"/>
         <TextBox x:Name="TextBox_1" HorizontalAlignment="Left" Height="23" Margin="30,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="NumberValidationTextBox" />
         <TextBox x:Name="TextBox_2" HorizontalAlignment="Left" Height="23" Margin="250,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="NumberValidationTextBox" IsEnabled="False" />
         <Button x:Name="ButtonCount" Content="Count" HorizontalAlignment="Left" Margin="160,155,0,0" VerticalAlignment="Top" Width="80" Click="ButtonCount_Click"/>
